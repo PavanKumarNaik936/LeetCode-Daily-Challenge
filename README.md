@@ -1,1 +1,2 @@
-# LeetCode-Daily-Challenge
+# DSA-Daily-Challenge
+Here i will solve daily challenges of Leetcode and geekforgeeks...
