@@ -6,7 +6,12 @@ class Solution {
             max = Math.max(max,x);
             min = Math.min(min,x);
         }
-        return gcd(max,min);
+        while(max!=0){
+            int t = min%max;
+            min = max;
+            max = t;
+        }
+        return min;
     }
     public int gcd(int a,int b){
         if(b==0)
