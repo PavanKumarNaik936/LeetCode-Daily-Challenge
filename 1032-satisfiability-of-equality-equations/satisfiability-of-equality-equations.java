@@ -9,10 +9,8 @@ class Solution {
             int ch1 = str.charAt(0)-'a';
             int ch2 = str.charAt(3)-'a';
             char opr = str.charAt(1);
-            int ch1_parent = find(ch1,parent);
-            int ch2_parent = find(ch2,parent);
             if(opr=='='){
-                union(ch1_parent,ch2_parent,parent,rank);
+                union(ch1,ch2,parent,rank);
             }
         }
         for(String str:equations){
